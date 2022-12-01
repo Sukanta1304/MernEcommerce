@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px 20px;
+    background-color: #3A7EFD;
+}
+
+
+.usermenu{
+    background-color:#3A7EFD ;
+    width:20%;
+    text-align: center;
+    margin-left: 80%;
+}
+.routemenu{
+    display: flex;
+    gap: 1rem;
+}
+
+.menu{
+    display: flex;
+    gap: 1rem;
+}
+
+.drawer{
+    display: none;
+}
+.cartcount{
+    margin-left: -25px;
+    background-color: red;
+    color: white;
+    /* padding: 0px 5px; */
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width:100px) and (max-width:500px){
+    .routemenu{
+        display: none;
+    }
+    .drawer{
+        display: block;
+    }
+    .usermenu{
+        width: 100%;
+        margin: auto;
+    }
+}

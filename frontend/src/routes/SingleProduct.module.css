@@ -1,0 +1,44 @@
+
+.container{
+    display: flex;
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container>div>img{
+width: 300px;
+height: 100%;
+}
+
+.detailsdiv{
+ padding: 15px 25px;
+ text-align: left;
+ margin-top: 50px;
+}
+
+.btndiv{
+    display: flex;
+    gap: 2rem;
+    margin-top: 35px;
+}
+
+.btndiv>button{
+    width: 200px;
+    height: 45px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:100px) and (max-width:500px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+}

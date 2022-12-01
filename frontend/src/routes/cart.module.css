@@ -1,0 +1,38 @@
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+}
+
+td{
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+}
+
+.btndiv>span{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+}
+
+.btndiv>button{
+    width: 50px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.paymentbtn{
+background-color: blueviolet;
+color: white;
+cursor: pointer;
+}
